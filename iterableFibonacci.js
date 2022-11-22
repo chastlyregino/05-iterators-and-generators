@@ -30,4 +30,6 @@ function iteratableFibonacci(number) {
   }
 }
 
-iteratableFibonacci(10)
+const iterable = iteratableFibonacci(10)
+
+console.log([...iterable])
